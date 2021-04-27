@@ -38,8 +38,8 @@ function draw()
 //make the monkey collide
 monkey.collide(ground);
   
-  if (background.x===background.width/2){
-    
+  if (background.x<0){
+   background.x=background.width/2 
   }
 
  // increasing mnkey size
