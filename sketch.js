@@ -18,7 +18,7 @@ function setup()
 {createCanvas(580, 400);
     
  background=createSprite(200,200) ;
- background.addImage(Backimg);  background.scale=0.8
+ background.addImage(Backimg);  background.scale=1.3
 background.velocityX=-2;
  
  //create the groups
